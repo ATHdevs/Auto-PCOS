@@ -26,9 +26,8 @@ Custom classification layers are added on top of the base model:
 - Dropout layer with a dropout rate of 0.3 to prevent overfitting.
 - Flattening layer to convert the 2D feature maps into a 1D vector.
 - Dense layer with 512 units and a ReLU activation function.
-- Output dense layer with a single unit and a sigmoid activation function for
+- Output dense layer with a single unit and a sigmoid activation function for binary classification.
   
-binary classification.
 5. Model Compilation:
 - The model is compiled with the Adam optimizer and binary cross-entropy loss function. 
 Binary accuracy is chosen as the evaluation metric.
