@@ -1,5 +1,7 @@
 # Auto-PCOS
 
+Our Team achieved a **Rank of 3** in this challenge with an accuracy of around 90%
+
 This pipeline involves training a binary classification model using transfer learning with a ResNetRS420 
 base model. Here's a brief overview of the steps involved:
 1. Image Preprocessing:
